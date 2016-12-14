@@ -1,0 +1,36 @@
+{
+    "pages": [
+     "pages/index/index" ,
+     "pages/detail/details"
+    ],
+    "window": {
+      "navigationBarBackgroundColor": "#363636",
+      "navigationBarTextStyle": "white",
+      "navigationBarTitleText": "小程序",
+      "backgroundColor": "#edf4f0",
+      "backgroundTextStyle": "light",
+      "enablePullDownRefresh": false
+    },
+    "tabBar": {
+        "backgroundColor": "#363636",
+        "color": "#fffcfc",
+      "list": [{
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "image/shouye_normal.png",
+        "selectedIconPath": "image.shouye_selected.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "社区",
+        "iconPath": "image/shequ_normal.png",
+        "selectedIconPath": "imageimage/shequ_selected.png"
+      },
+       {
+        "pagePath": "pages/index/index",
+        "text": "我的",
+        "iconPath": "image/",
+        "selectedIconPath": ""
+      }]
+    }
+}
