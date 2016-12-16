@@ -1,20 +1,28 @@
 <!--pages/index/index.wxml-->
 <view class="list">
-<!--文章列表模板begin-->
-<template name="items">
-<navigator url="../detail/details" hover-class="navigator-hover" >
-    <view class="imgs" bindtap="bindViewTap"><image src="{{imgURL}}" class="in-img" background-size="cover" mode="scaleToFill"></image></view>
-    <view class="infos">
-        <view class="title">{{title}}</view>
-        <view class="date">{{date}}</view>
-        <view class= "classification">{{category}}</view>
-    </view>
-</navigator>
-</template>
-<!--文章列表模板end-->
 
 <!--循环渲染列表-->
 <block wx:for="{{newList}}">
     <template is="items" data="{{...item}}"/>
 </block>
 </view>
+
+
+
+
+<!--文章列表模板begin-->
+<template name="items">
+<view style="background:white;margin-top:15rpx;" >
+    <navigator url="../detail/details" hover-class="navigator-hover" >
+            <view class="imgs" bindtap="bindViewTap">
+                <image src="{{imgURL}}" class="in-img" background-size="cover" mode="scaleToFill"></image>
+            </view>
+            <view class="infos">
+                <view class="title">{{title}}</view>
+                <view class="date">{{date}}</view>
+                <view class= "classification">{{category}}</view>
+            </view>
+    </navigator>
+</view>
+</template>
+<!--文章列表模板end-->
