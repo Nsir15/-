@@ -3,11 +3,11 @@
 <!--文章列表模板begin-->
 <template name="items">
 <navigator url="../detail/details" hover-class="navigator-hover" >
-    <view class="imgs" bindtap="bindViewTap"><image src="{{imgURL}}" class="in-img" background-size="cover" model="scaleToFill"></image></view>
+    <view class="imgs" bindtap="bindViewTap"><image src="{{imgURL}}" class="in-img" background-size="cover" mode="scaleToFill"></image></view>
     <view class="infos">
         <view class="title">{{title}}</view>
-        <view class="date">{{time}}</view>
-        <view class= "classification">{{classification}}</view>
+        <view class="date">{{date}}</view>
+        <view class= "classification">{{category}}</view>
     </view>
 </navigator>
 </template>

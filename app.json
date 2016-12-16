@@ -1,7 +1,8 @@
 {
     "pages": [
      "pages/index/index" ,
-     "pages/detail/details"
+     "pages/detail/details",
+     "pages/mine/mine"
     ],
     "window": {
       "navigationBarBackgroundColor": "#363636",
@@ -17,20 +18,20 @@
       "list": [{
         "pagePath": "pages/index/index",
         "text": "首页",
-        "iconPath": "image/shouye_normal.png",
-        "selectedIconPath": "image.shouye_selected.png"
+        "iconPath": "images/shouye_normal.png",
+        "selectedIconPath": "images/shouye_selected.png"
       },
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/detail/details",
         "text": "社区",
-        "iconPath": "image/shequ_normal.png",
-        "selectedIconPath": "imageimage/shequ_selected.png"
+        "iconPath": "images/shequ_normal.png",
+        "selectedIconPath": "images/shequ_selected.png"
       },
        {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/mine/mine",
         "text": "我的",
-        "iconPath": "image/",
-        "selectedIconPath": ""
+        "iconPath": "images/find_normal.png",
+        "selectedIconPath": "images/find_selected.png"
       }]
     }
 }

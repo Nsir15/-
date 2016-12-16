@@ -1,0 +1,5 @@
+@import "/common.wxss";
+.container{
+    display: block;
+    justify-content: center;
+}
