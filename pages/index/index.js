@@ -1,4 +1,4 @@
-// pages/index/index.js
+  // pages/index/index.js
 Page({
   data:{
     // newList:[
@@ -21,9 +21,9 @@ Page({
 		  "url"        : "http://allluckly.cn/%E6%8A%95%E7%A8%BF/tougao70",
 		  "date"       : "2016-11-14 00:00:00 +0000",
 		  "shortdate"  : "November 14, 2016",
-      "imgURL"     :"../../images/guide_card_notify.png"		
+      "imgURL"     :"../../images/guide_card_notify.png"
       } ,
-	
+
 		{
 		  "title"      : "iOS开发之位运算",
 		  "category"   : "投稿",
@@ -32,7 +32,7 @@ Page({
 		  "shortdate"  : "November 07, 2016",
 		   "imgURL"     :"../../images/guide_card_notify.png"
 		} ,
-	
+
 		{
 		  "title"      : "iOS开发之均衡代码职责浅谈",
 		  "category"   : "投稿",
@@ -41,7 +41,7 @@ Page({
 		  "shortdate"  : "October 27, 2016",
 		   "imgURL"     :"../../images/guide_card_notify.png"
 		} ,
-	
+
 		{
 		  "title"      : "微信小程序开发教程-从零开始《三》",
 		  "category"   : "微信小程序",
@@ -50,7 +50,7 @@ Page({
 		  "shortdate"  : "October 19, 2016",
 		   "imgURL"     :"../../images/guide_card_notify.png"
 		} ,
-	
+
 		{
 		  "title"      : "微信小程序开发教程-从零开始《二》",
 		  "category"   : "微信小程序",
@@ -59,7 +59,7 @@ Page({
 		  "shortdate"  : "October 18, 2016",
 		   "imgURL"     :"../../images/guide_card_notify.png"
 		} ,
-	
+
 		{
 		  "title"      : "微信小程序开发教程-从零开始《一》",
 		  "category"   : "微信小程序",
@@ -68,7 +68,7 @@ Page({
 		  "shortdate"  : "October 17, 2016",
 		   "imgURL"     :"../../images/guide_card_notify.png"
 		} ,
-	
+
 		{
 		  "title"      : "Swift3.0学习系列之Swift实战-单例模式",
 		  "category"   : "投稿",
@@ -77,7 +77,7 @@ Page({
 		  "shortdate"  : "October 13, 2016",
 		   "imgURL"     :"../../images/guide_card_notify.png"
 		} ,
-	
+
 		{
 		  "title"      : "Swift3.0学习系列之Swift实战-享元模式",
 		  "category"   : "投稿",
@@ -86,7 +86,7 @@ Page({
 		  "shortdate"  : "October 13, 2016",
 		   "imgURL"     :"../../images/guide_card_notify.png"
 		} ,
-	
+
 		{
 		  "title"      : "iOS开发之iOS10推送必看(高阶2)",
 		  "category"   : "投稿",
@@ -95,7 +95,7 @@ Page({
 		  "shortdate"  : "October 12, 2016",
 		   "imgURL"     :"../../images/guide_card_notify.png"
 		} ,
-	
+
 		{
 		  "title"      : "iOS开发之UITextField的那点事",
 		  "category"   : "投稿",
@@ -104,7 +104,7 @@ Page({
 		  "shortdate"  : "October 09, 2016",
 		   "imgURL"     :"../../images/guide_card_notify.png"
 		} ,
-	
+
 		{
 		  "title"      : "iOS开发之iOS10推送必看(高阶1)",
 		  "category"   : "投稿",
@@ -113,7 +113,7 @@ Page({
 		  "shortdate"  : "September 28, 2016",
 		   "imgURL"     :"../../images/guide_card_notify.png"
 		} ,
-	
+
 		{
 		  "title"      : "iOS开发之iOS10推送必看(基础篇)",
 		  "category"   : "投稿",
@@ -122,7 +122,7 @@ Page({
 		  "shortdate"  : "September 27, 2016",
 		  "imgURL"     :"../../images/guide_card_notify.png"
 		} ,
-	
+
 		{
 		  "title"      : "iOS开发之Xcode8兼容适配iOS 10资料整理笔记",
 		  "category"   : "投稿",
@@ -131,7 +131,7 @@ Page({
 		  "shortdate"  : "September 22, 2016",
 		   "imgURL"     :"../../images/guide_card_notify.png"
 		} ,
-	
+
 		{
 		  "title"      : "Xcode8开发iOS10推送通知过程",
 		  "category"   : "投稿",
@@ -140,7 +140,7 @@ Page({
 		  "shortdate"  : "September 21, 2016",
 		   "imgURL"     :"../../images/guide_card_notify.png"
 		} ,
-	
+
 		{
 		  "title"      : "iOS开发之按钮动画",
 		  "category"   : "投稿",
@@ -149,7 +149,7 @@ Page({
 		  "shortdate"  : "September 20, 2016",
 		  "imgURL"   : "https://wap.allluckly.cn/images/blog/tuogao/tougao59/1.gif"
 		} ,
-	
+
 		{
 		  "title"      : "iOS开发之百度外卖APP个人中心头像-浪-起来的动画效果",
 		  "category"   : "投稿",
@@ -158,7 +158,7 @@ Page({
 		  "shortdate"  : "September 09, 2016",
 		  "imgURL"   : "https://wap.allluckly.cn/images/blog/tuogao/tougao58/fistImg.gif"
 		} ,
-	
+
 		{
 		  "title"      : "iOS开发之协议代理",
 		  "category"   : "投稿",
@@ -183,7 +183,7 @@ Page({
       // header: {}, // 设置请求的 header
       success: function(res){
         // success
-        console.log(res.data)
+        // console.log(res.data)
       },
       fail: function() {
         // fail

@@ -23,4 +23,7 @@ Page({
        // 顶部切换
        currentTab: 0 //0为问题榜 1为悬赏
     },
+    onLoad:function(){
+        
+    }
 })

@@ -1,6 +1,7 @@
 {
     "pages": [
      "pages/index/index" ,
+     "pages/community/community",
      "pages/detail/details",
      "pages/mine/mine"
     ],
@@ -22,7 +23,7 @@
         "selectedIconPath": "images/shouye_selected.png"
       },
       {
-        "pagePath": "pages/detail/details",
+        "pagePath": "pages/community/community",
         "text": "社区",
         "iconPath": "images/shequ_normal.png",
         "selectedIconPath": "images/shequ_selected.png"
